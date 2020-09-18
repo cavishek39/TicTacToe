@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="single_player">Single Player</string>
+    <string name="online">Online</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+
+
+    <string name="label_player_turn">Turn</string>
+    <string name="turn_human">Its yours</string>
+    <string name="turn_computer">Computer</string>
+
+
+    <string name="about_note">
+    This game is made by
+    \t\nAvishek Chatterjee\t
+        \navishekone10@gmail.com
+
+    </string>
+</resources>

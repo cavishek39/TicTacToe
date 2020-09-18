@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tic_tac_toe"
+    android:layout_gravity="center"
+    tools:context="com.example.tictactoe.SplashActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/progeress_bar"/>
+
+    <ProgressBar
+        android:id="@+id/progeress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="802dp"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="0 %"
+        android:textColor="#FF5733"
+    android:textSize="21sp"
+    android:id="@+id/text_view"
+    android:layout_centerHorizontal="true"
+    android:layout_above="@+id/progeress_bar"/>
+</RelativeLayout>
